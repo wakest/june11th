@@ -1,0 +1,69 @@
+
+
+body{
+	background-color: red;
+}
+h1{
+	text-align: center;
+}
+
+
+
+.buttonsInABox{
+	margin: auto;  
+	position: relative;
+	left:20px;
+	right: 0;
+
+}
+
+button {
+	border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0, 0.2);
+    font-weight: bold;
+    color: white;
+}
+
+button:focus{
+	outline:0;
+	box-shadow: 0px 5px 20px 0px rgba(0,0,0, 0.5);
+	background-color: none;
+}
+
+
+
+#changeToRed{
+	background-color: red;
+}
+
+#changeToGreen{
+	background-color: green;
+}
+#changeToBlue{
+	background-color: blue;
+}
+
+#changeToRedAndGreen{
+	background: linear-gradient(red, green);
+}
+
+#changeToGreenAndBlue{
+	background: linear-gradient(green, blue);
+}
+
+#changeToBlueAndRed{
+	background: linear-gradient(blue, red);
+}
+#changeToRedAndGreenAndBlue{
+	background: linear-gradient(red, green, blue);
+}
+#changeToGreenAndBlueAndRed{
+	background: linear-gradient(green, blue, red);
+}
+#changeToBlueAndRedAndGreen{
+	background: linear-gradient(blue, red, green);
+}
